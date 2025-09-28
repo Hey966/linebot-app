@@ -1,3 +1,14 @@
+from dotenv import load_dotenv
+import os
+
+# 讀取 .env 檔，把裡面的變數載入到 os.environ
+load_dotenv()
+
+# 測試一下有沒有成功
+print("CHANNEL_SECRET =", os.getenv("CHANNEL_SECRET"))
+print("CHANNEL_ACCESS_TOKEN =", os.getenv("CHANNEL_ACCESS_TOKEN"))
+
+
 # -*- coding: utf-8 -*-
 import os, json
 from pathlib import Path
