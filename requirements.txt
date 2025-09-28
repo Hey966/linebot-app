@@ -1,3 +1,5 @@
+flask>=3.0
+line-bot-sdk>=3.13
 flask
 line-bot-sdk
 requests
