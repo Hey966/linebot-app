@@ -4,3 +4,4 @@ flask
 line-bot-sdk
 requests
 gunicorn
+python-dotenv
